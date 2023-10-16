@@ -101,48 +101,32 @@
 }
 
 @media (min-width: 1120px) {
-  .header__content {
-    padding: 41px 30px;
-    background-color: #f8f8f8;
-    border-bottom: none;
-    justify-content: flex-end;
-    gap: 161px;
-  }
-
-  .header__content > :first-child,
-  .header__content > :nth-child(2),
-  .header__content > :nth-child(3),
-  .header__content > :nth-child(5),
-  .group-btn {
+  .header {
     display: none;
   }
 
-  .header__btn {
+  .link-wrapper {
+    display: flex;
+    position: absolute;
+    right: 3%;
+    gap: 31px;
     z-index: 100;
   }
-
-  .checkstatus::before {
-    content: "Статус ремонта";
-    position: absolute;
-    right: 81px;
-    top: 49px;
+  .action {
     color: #1b1c21;
     font-weight: 500;
     letter-spacing: -0.2px;
   }
 
-  .repair::before {
-    content: "Оставить заявку";
-    position: absolute;
-    right: 279px;
-    top: 49px;
-    color: #1b1c21;
-    font-weight: 500;
-    letter-spacing: -0.2px;
+  .action svg {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
   }
 
   .services {
-    margin-top: -102px;
+    padding-top: 42px;
+    position: relative;
   }
 
   .services__title {
@@ -188,7 +172,7 @@
   }
 
   .services__img {
-    min-height: 320px;
+    min-height: 308px;
     background-size: cover;
   }
 }

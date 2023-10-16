@@ -46,6 +46,7 @@ a {
 }
 
 /******** HEADER ********/
+
 .header__content {
   display: flex;
   justify-content: space-between;
@@ -90,6 +91,9 @@ a {
 }
 
 /******** SERVICES ********/
+.link-wrapper {
+  display: none;
+}
 
 .services {
   background-color: #f8f8f8;

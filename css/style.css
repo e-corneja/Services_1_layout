@@ -140,7 +140,7 @@ a {
 .nav__list {
   display: flex;
   gap: 16px;
-  overflow-x: auto;
+/*   overflow-x: auto; */
 }
 
 .nav__item {
